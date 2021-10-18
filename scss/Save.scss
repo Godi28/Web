@@ -1,0 +1,131 @@
+// Saved Information SCSS
+#bodySavedInformation {
+    background-color:gold;
+    color:darkslateblue;
+    }
+#hide{
+position:relative;
+bottom: 25px;
+left: 250px;
+}
+#show{
+    position:relative;
+    bottom: 25px;
+    left: 252px;
+}
+#comments{
+    margin-bottom: 0px;
+}
+#savedContentHeading{
+    text-align: center;
+    font-size: 70px;
+}
+#hide{
+margin-top: 4px;
+}
+#show{
+    margin-top: 4px;
+}
+// Saved For Later SCSS
+#body {
+background-color: darkslateblue;
+color: ghostwhite;
+text-align: center;
+list-style-position: inside;
+
+}
+#player1 { 
+   float:left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+    
+}
+#player2{ 
+    float: left;
+    margin-right: 10px;
+ }
+ #player3 { 
+    float: left;
+     
+ }
+ #saveListButton{
+     position: relative;
+     top: 100px;
+ }
+
+#playerList li#player1{
+    list-style-image: url("scssimages/CR7.jfif")  
+    
+}
+#playerList li#player2{
+    list-style-image: url("scssimages/Messi.jfif")  
+}
+#playerList li#player3{
+    list-style-image: url("scssimages/Neymar.jfif")  
+}
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+table, th, td{
+    border: 1px solid ghostwhite;
+}
+#ManULink{
+color: aqua;
+position: relative;
+left: initial;
+}
+
+#ChiefsLink{
+color: aqua;
+position: relative;
+left: initial;
+}
+
+#SavedInformationLink{
+    color: aqua;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+  
+    }
+select{
+    position: absolute;
+    right: 20px;
+
+}
+#dropDownLabel{
+    position: absolute;
+    right: 120px;
+}
+#saveChiefsButton{
+position: relative;
+top: 2px;
+}
+#chiefs{
+    margin-bottom: 5px;
+    position: relative;
+    left: initial;
+}
+#ManUButton{
+    position: relative;
+    top: 2px;
+    }
+    #ManU{
+        margin-bottom: 5px;
+        position: relative;
+        left: initial;
+    }
+    #Football{
+        position: relative;
+        left: initial;
+    }
+    #PopularSports{
+        position: relative;
+        left: initial;
+    }
+    #PopularPlayers{
+        position: relative;
+        left: initial;
+    }
