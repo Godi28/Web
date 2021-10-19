@@ -17,7 +17,7 @@ You should be able to view the files in your local git repository.
 
 ## Usage
 1. Open the SaveForLAter.html file in your prefered browser.
-2. Click on the save button bellow an item you wish to save as shown bellow.
+2. Click on the save button bellow/next to an item you wish to save as shown bellow.
 ![save button](https://user-images.githubusercontent.com/88197915/137829456-8294654e-26da-4f2c-8746-1f2e7c6fdd63.png)
 3. After saving all the items you want to, click on the link in the top right hand corner to view saved content.
 ![view saved content ](https://user-images.githubusercontent.com/88197915/137829557-328c579b-3525-4876-ae81-c57328d5c399.png)
