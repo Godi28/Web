@@ -3,18 +3,7 @@
 A website that has content about the world's most famous sport , Footall. The main page SaveForLater.html allows the user to save items from that page into Local Storage and view then on a differerent page, SavedInformation.html which can be accessed through a link at the top right hand corner of the main page. On the second page the user is able to rate/like the saved content and add comments.
 
 ## Installation
-1. first add the url for this repository to your local git repository as follows:
-
-git remote add "give it a name" https://github.com/Godi28/Web-Pushed.git
-
-2. then pull the repsitory into your local repositiry as follows:
-
-git pull --commit "the name you gave it" master (to commit to master branch)
-
-git pull --no-commit "the name you gave it" master (to pull but not commit to master bracnch)
-
-You should be able to view the files in your local git repository.
-
+Go to the the url https://godi28.github.io/Web/SaveForLater to view the website.
 ## Usage
 1. Open the SaveForLAter.html file in your prefered browser.
 2. Click on the save button bellow/next to an item you wish to save as shown bellow.
