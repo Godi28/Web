@@ -77,15 +77,15 @@ function Table() {
 alerts the amount of items saved from the page then animates the heading */
 function PopularPlayers() {
   // getting "Most Popular Football Players" h2 tag by ID to access the innerhtml and putting it into a variable
-  let h2tag = document.getElementById("PopularPlayers");
+  let h2tag = document.getElementById("PopularPlayersHeading");
   localStorage.setItem("PopularPlayers Heading ", h2tag.innerHTML);
   alert(`items saved from the page:
  ${localStorage.length} `);
-  $("#PopularPlayers").css("color", "lawngreen");
-  $("#PopularPlayers").animate({ right: "60px" }, "slow");
-  $("#PopularPlayers").animate({ right: "0px" }, "slow");
-  $("#PopularPlayers").animate({ left: "60px" }, "slow");
-  $("#PopularPlayers").animate({ left: "0px" }, "slow");
+  $("#PopularPlayersHeading").css("color", "lawngreen");
+  $("#PopularPlayersHeading").animate({ right: "60px" }, "slow");
+  $("#PopularPlayersHeading").animate({ right: "0px" }, "slow");
+  $("#PopularPlayersHeading").animate({ left: "60px" }, "slow");
+  $("#PopularPlayersHeading").animate({ left: "0px" }, "slow");
 }
 /*  on button click the function stores the list items in local storage ,
 alerts the amount of items saved from the page then changes the color of the list items */
