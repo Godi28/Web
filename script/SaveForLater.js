@@ -16,15 +16,15 @@ function Football() {
 alerts the amount of items saved from the page then animates the heading */
 function PopularSports() {
   // getting "Most Popular Sports Globally" h2 tag by ID to access the innerhtml and putting it into a variable
-  let h2tag = document.getElementById("PopularSports");
+  let h2tag = document.getElementById("PopularSportsHeading");
   localStorage.setItem("PopularSports Heading", h2tag.innerHTML);
   alert(`items saved from the page:
  ${localStorage.length} `);
-  $("#PopularSports").css("color", "lawngreen");
-  $("#PopularSports").animate({ right: "60px" }, "slow");
-  $("#PopularSports").animate({ right: "0px" }, "slow");
-  $("#PopularSports").animate({ left: "60px" }, "slow");
-  $("#PopularSports").animate({ left: "0px" }, "slow");
+  $("#PopularSportsHeading").css("color", "lawngreen");
+  $("#PopularSportsHeading").animate({ right: "60px" }, "slow");
+  $("#PopularSportsHeading").animate({ right: "0px" }, "slow");
+  $("#PopularSportsHeading").animate({ left: "60px" }, "slow");
+  $("#PopularSportsHeading").animate({ left: "0px" }, "slow");
 }
 /*  on button click the function stores all table elements' data in local storage,
 alerts the amount of items saved from the page then animates the table */
